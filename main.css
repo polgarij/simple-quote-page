@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    line-height: 2rem;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    line-height: 1.5rem;
+}
+
+.cover {
+    background: url(assets/ocean.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: table;
+}
+
+.text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+
+.text {
+    width: 70vw;
+    padding: 1.25rem;
+}
